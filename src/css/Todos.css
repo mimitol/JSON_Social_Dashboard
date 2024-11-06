@@ -1,0 +1,93 @@
+.title {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .search-container {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .search-container p {
+    margin-right: 10px;
+  }
+  
+  .search-container input[type="text"] {
+    margin-right: 10px;
+  }
+  
+  .search-container button {
+    margin-top: 10px;
+  }
+  
+  
+  .todo-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #337ab7;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .todo-frame h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .todo-frame p {
+    white-space: break-word;
+  }
+  
+  .todo-frame button {
+    margin-top: 10px;
+  }
+  
+  .add-todo-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    display: inline-block;
+    color: #337ab7;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 1px solid #337ab7;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .todo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  input[type="text"],select {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #337ab7;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+  }
+  

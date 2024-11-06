@@ -1,0 +1,59 @@
+/* ImageGallery.css */
+
+/* Container styles */
+.image-gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Add new photo button styles */
+  .add-photo-button {
+    margin-bottom: 20px;
+  }
+  
+  /* Form input styles */
+  .photo-input {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  /* Gallery styles */
+  .photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Photo styles */
+  /* .photo {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  } */
+  
+  /* Pagination button styles */
+  .pagination-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    margin: 0 5px;
+  }
+  
+  /* Media query for two rows */
+  @media (min-width: 600px) {
+    .photo-gallery {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+  .next-button {
+    margin-left: auto;
+  }
+  

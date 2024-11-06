@@ -1,0 +1,26 @@
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 9999; /* Ensure the links are always on top */
+    background-color: white;
+  }
+header {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.link {
+    margin-right: 10px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

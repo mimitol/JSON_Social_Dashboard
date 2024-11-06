@@ -1,0 +1,67 @@
+.login-register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-register-form {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-register-form h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #337ab7;
+  margin-bottom: 20px;
+}
+
+.login-register-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.login-register-form input[type="text"],
+.login-register-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Add this line */
+}
+
+.login-register-form input[type="submit"],
+.login-register-form button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  background-color: #337ab7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-register-form input[type="submit"]:hover,
+.login-register-form button:hover {
+  background-color: #235a96;
+}
+.login-register-form input[type="email"],
+.login-register-form input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
